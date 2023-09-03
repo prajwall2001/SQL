@@ -138,5 +138,7 @@ ALTER TABLE Loan ADD COLUMN (loan_amount int,loan_status varchar(20));
  INSERT INTO Loan VALUES('Bandhan Bank', 'Kolkata Branch', 700002, 'Matthew', 88000, 'Married', 119, 'Personal Loan', 17500, 'Pending');
  INSERT INTO Loan VALUES('RBL Bank', 'Mumbai Branch', 400002, 'King', 60000, 'Single', 120, 'Education Loan', 51000, 'Rejected');
 
+SELECT *FROM Loan;
+UPDATE Loan SET pincode=546255 WHERE pincode=462001;
 
 
